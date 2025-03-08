@@ -45,11 +45,11 @@ class Xylophone extends StatelessWidget {
           Container(
             width: double.infinity,
             height: 125,
-            color: Colors.yellow,
+            color: Colors.orange,
             child: musicButton(
               path: AppAssets().note4,
               title: 'Play Audio 4',
-              color: Colors.yellow,
+              color: Colors.orange,
             ),
           ),
           Container(

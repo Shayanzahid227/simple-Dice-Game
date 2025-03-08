@@ -1,26 +1,22 @@
 import 'package:dice_game/core/constants/strings.dart';
 
 class AppAssets {
-//   ///
-//   /// Static Assets
-//   ///
-
   String dice = "$staticAssets/dice1.png";
-  String dice2 = "$staticAssets/dice2.png";
-  String dice3 = "$staticAssets/dice3.png";
-  String dice4 = "$staticAssets/dice4.png";
-  String dice5 = "$staticAssets/dice5.png";
-  String dice6 = "$staticAssets/dice6.png";
-  String diceBackPic = "$staticAssets/diceBackPic.jpeg";
+  String note1 = '$audioAssets/note1.wav';
+  String note2 = '$audioAssets/note2.wav';
+  String note3 = '$audioAssets/note3.wav';
+  String note4 = '$audioAssets/note4.wav';
+  String note5 = '$audioAssets/note5.wav';
+  String note6 = '$audioAssets/note6.wav';
+  String note7 = '$audioAssets/note7.wav';
+}
 
-//   ///
-//   /// Dynamic Assets
-//   ///
-
-//   String imagesdata = "$dynamicAssets/imagesdata.png";
-
-//   ///
-//   /// Icons Assets
-//   ///
-//   String search = "$iconsAssets/search.png";
+class AudioAssets {
+  String note1 = '$audioAssets/note1.wav';
+  String note2 = '$audioAssets/note2.wav';
+  String note3 = '$audioAssets/note3.wav';
+  String note4 = '$audioAssets/note4.wav';
+  String note5 = '$audioAssets/note5.wav';
+  String note6 = '$audioAssets/note6.wav';
+  String note7 = '$audioAssets/note7.wav';
 }

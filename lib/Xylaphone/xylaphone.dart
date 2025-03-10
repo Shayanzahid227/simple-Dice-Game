@@ -9,77 +9,96 @@ class Xylophone extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Future<void> playSound(int soundNumber) async {
+      final player = AudioPlayer();
+      player.play(AssetSource('assets/audio_assets$soundNumber.wav'));
+    }
+
     return Scaffold(
       body: Column(
         children: [
-          Container(
-            height: 125,
-            width: double.infinity,
-            color: Colors.red,
-            child: musicButton(
-              path: AppAssets().note1,
-              title: 'Play Audio 1',
+          Expanded(
+            child: Container(
+              height: 125,
+              width: double.infinity,
               color: Colors.red,
+              child: musicButton(
+                path: AppAssets().note1,
+                title: 'Play Audio 1',
+                color: Colors.red,
+              ),
             ),
           ),
-          Container(
-            height: 125,
-            width: double.infinity,
-            color: Colors.purple,
-            child: musicButton(
-              path: AppAssets().note2,
-              title: 'Play Audio 2',
+          Expanded(
+            child: Container(
+              height: 125,
+              width: double.infinity,
               color: Colors.purple,
+              child: musicButton(
+                path: AppAssets().note2,
+                title: 'Play Audio 2',
+                color: Colors.purple,
+              ),
             ),
           ),
-          Container(
-            height: 125,
-            width: double.infinity,
-            color: Colors.red,
-            child: musicButton(
-              path: AppAssets().note3,
-              title: 'Play Audio 3',
-              color: Colors.pink,
+          Expanded(
+            child: Container(
+              height: 125,
+              width: double.infinity,
+              color: Colors.red,
+              child: musicButton(
+                path: AppAssets().note3,
+                title: 'Play Audio 3',
+                color: Colors.pink,
+              ),
             ),
           ),
-          Container(
-            width: double.infinity,
-            height: 125,
-            color: Colors.orange,
-            child: musicButton(
-              path: AppAssets().note4,
-              title: 'Play Audio 4',
+          Expanded(
+            child: Container(
+              width: double.infinity,
+              height: 125,
               color: Colors.orange,
+              child: musicButton(
+                path: AppAssets().note4,
+                title: 'Play Audio 4',
+                color: Colors.orange,
+              ),
             ),
           ),
-          Container(
-            height: 125,
-            width: double.infinity,
-            color: Colors.teal,
-            child: musicButton(
-              path: AppAssets().note5,
-              title: 'Play Audio 5',
+          Expanded(
+            child: Container(
+              height: 125,
+              width: double.infinity,
               color: Colors.teal,
+              child: musicButton(
+                path: AppAssets().note5,
+                title: 'Play Audio 5',
+                color: Colors.teal,
+              ),
             ),
           ),
-          Container(
-            height: 125,
-            width: double.infinity,
-            color: Colors.greenAccent,
-            child: musicButton(
-              path: AppAssets().note6,
-              title: 'Play Audio 6',
+          Expanded(
+            child: Container(
+              height: 125,
+              width: double.infinity,
               color: Colors.greenAccent,
+              child: musicButton(
+                path: AppAssets().note6,
+                title: 'Play Audio 6',
+                color: Colors.greenAccent,
+              ),
             ),
           ),
-          Container(
-            height: 125,
-            width: double.infinity,
-            color: Colors.blue,
-            child: musicButton(
-              path: AppAssets().note7,
-              title: 'Play Audio 7',
+          Expanded(
+            child: Container(
+              height: 125,
+              width: double.infinity,
               color: Colors.blue,
+              child: musicButton(
+                path: AppAssets().note7,
+                title: 'Play Audio 7',
+                color: Colors.blue,
+              ),
             ),
           ),
         ],

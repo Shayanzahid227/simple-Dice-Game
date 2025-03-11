@@ -24,7 +24,7 @@ class Xylophone extends StatelessWidget {
               color: Colors.red,
               child: musicButton(
                 path: AppAssets().note1,
-                title: 'Play Audio 1',
+                title: 'Play music 1',
                 color: Colors.red,
               ),
             ),
@@ -36,7 +36,7 @@ class Xylophone extends StatelessWidget {
               color: Colors.purple,
               child: musicButton(
                 path: AppAssets().note2,
-                title: 'Play Audio 2',
+                title: 'Play music 2',
                 color: Colors.purple,
               ),
             ),
@@ -48,7 +48,7 @@ class Xylophone extends StatelessWidget {
               color: Colors.red,
               child: musicButton(
                 path: AppAssets().note3,
-                title: 'Play Audio 3',
+                title: 'Play music 3',
                 color: Colors.pink,
               ),
             ),
@@ -60,7 +60,7 @@ class Xylophone extends StatelessWidget {
               color: Colors.orange,
               child: musicButton(
                 path: AppAssets().note4,
-                title: 'Play Audio 4',
+                title: 'Play music 4',
                 color: Colors.orange,
               ),
             ),
@@ -72,7 +72,7 @@ class Xylophone extends StatelessWidget {
               color: Colors.teal,
               child: musicButton(
                 path: AppAssets().note5,
-                title: 'Play Audio 5',
+                title: 'Play music 5',
                 color: Colors.teal,
               ),
             ),
@@ -84,7 +84,7 @@ class Xylophone extends StatelessWidget {
               color: Colors.greenAccent,
               child: musicButton(
                 path: AppAssets().note6,
-                title: 'Play Audio 6',
+                title: 'Play music 6',
                 color: Colors.greenAccent,
               ),
             ),
@@ -96,7 +96,7 @@ class Xylophone extends StatelessWidget {
               color: Colors.blue,
               child: musicButton(
                 path: AppAssets().note7,
-                title: 'Play Audio 7',
+                title: 'Play music 7',
                 color: Colors.blue,
               ),
             ),

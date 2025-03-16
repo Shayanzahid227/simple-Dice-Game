@@ -47,13 +47,13 @@ class Xylophone extends StatelessWidget {
           //*****************************************************************************
           //      the first method is done using function
           //
-          _musicButton(1, Colors.red, 'Play music 1'),
-          _musicButton(2, Colors.purple, 'Play music 2'),
-          _musicButton(3, Colors.teal, 'Play music 3'),
-          _musicButton(4, Colors.green, 'Play music 4'),
-          _musicButton(5, Colors.orange, 'Play music 5'),
-          _musicButton(6, Colors.blue, 'Play music 6'),
-          _musicButton(7, Colors.yellowAccent, 'Play music 7'),
+          // _musicButton(1, Colors.red, 'Play music 1'),
+          // _musicButton(2, Colors.purple, 'Play music 2'),
+          // _musicButton(3, Colors.teal, 'Play music 3'),
+          // _musicButton(4, Colors.green, 'Play music 4'),
+          // _musicButton(5, Colors.orange, 'Play music 5'),
+          // _musicButton(6, Colors.blue, 'Play music 6'),
+          // _musicButton(7, Colors.yellowAccent, 'Play music 7'),
           //*****************************************************************************
           //  the second method is using custom widget
           //
@@ -142,36 +142,36 @@ class Xylophone extends StatelessWidget {
           //   ),
           // ),
           //*****************************************************************************
-          //      method 3 using custom widget
-          //
-          // musicButton(
-          //     path: AppAssets().note1,
-          //     title: 'Music Button 1',
-          //     color: Colors.red),
-          // musicButton(
-          //     path: AppAssets().note2,
-          //     title: 'Music Button 2',
-          //     color: Colors.pink),
-          // musicButton(
-          //     path: AppAssets().note3,
-          //     title: 'Music Button 3',
-          //     color: Colors.teal),
-          // musicButton(
-          //     path: AppAssets().note4,
-          //     title: 'Music Button 4',
-          //     color: Colors.purple),
-          // musicButton(
-          //     path: AppAssets().note5,
-          //     title: 'Music Button 5',
-          //     color: Colors.yellow),
-          // musicButton(
-          //     path: AppAssets().note6,
-          //     title: 'Music Button 6',
-          //     color: Colors.orange),
-          // musicButton(
-          //     path: AppAssets().note7,
-          //     title: 'Music Button 7',
-          //     color: Colors.blue),
+          //    method 3 using custom widget
+
+          musicButton(
+              path: AppAssets().note1,
+              title: 'Music Button 1',
+              color: Colors.red),
+          musicButton(
+              path: AppAssets().note2,
+              title: 'Music Button 2',
+              color: Colors.pink),
+          musicButton(
+              path: AppAssets().note3,
+              title: 'Music Button 3',
+              color: Colors.teal),
+          musicButton(
+              path: AppAssets().note4,
+              title: 'Music Button 4',
+              color: Colors.purple),
+          musicButton(
+              path: AppAssets().note5,
+              title: 'Music Button 5',
+              color: Colors.yellow),
+          musicButton(
+              path: AppAssets().note6,
+              title: 'Music Button 6',
+              color: Colors.orange),
+          musicButton(
+              path: AppAssets().note7,
+              title: 'Music Button 7',
+              color: Colors.blue),
         ],
       ),
     );
